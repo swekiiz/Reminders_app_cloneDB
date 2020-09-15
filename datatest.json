@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ffjrdfihdkfnsfkdlcnsdc",
+    "title": "title1",
+    "color": "#FCA938",
+    "icon": "dog",
+    "list": [
+      {
+        "text": "aaaa",
+        "isCheck": false
+      },
+      {
+        "text": "bbbbbbbbbb",
+        "isCheck": true
+      },
+      {
+        "text": "cc",
+        "isCheck": false
+      },
+      {
+        "text": "ddddddd",
+        "isCheck": false
+      }
+    ]
+  },
+  {
+    "id": "ppwpdxhxuubwdlcnsdc",
+    "title": "title2",
+    "color": "#2FAB29",
+    "icon": "cat",
+    "list": [
+      {
+        "text": "xxx",
+        "isCheck": true
+      },
+      {
+        "text": "yyyyyyy",
+        "isCheck": false
+      },
+      {
+        "text": "zzzzzzzzz",
+        "isCheck": false
+      }
+    ]
+  },
+  {
+    "id": "qpidhdhhdbxowgmd",
+    "title": "title3",
+    "color": "#8436E7",
+    "icon": "rat",
+    "list": [
+      {
+        "text": "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+        "isCheck": true
+      },
+      {
+        "text": "jjj",
+        "isCheck": false
+      },
+      {
+        "text": "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "isCheck": true
+      },
+      {
+        "text": "lllll",
+        "isCheck": true
+      }
+    ]
+  }
+]
