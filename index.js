@@ -10,7 +10,7 @@ const editData = (reqdata) => {
   // console.log(data);
   for (let i = 0; i < data.length; i++) {
     if (data[i]["id"] == reqdata["id"]) {
-      data[i] = reqdata;
+      data[i] = {...data[i], ...reqdata};
     }
     console.log(data[i]);
   }
@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/webhook", (req, res) => {
-  console.log("fetch data");
+  console.log("Fetch data");
   res.send(data);
 });
 
@@ -44,6 +44,7 @@ app.post("/editdb", [check("id").exists()], (req, res) => {
 
 app.post("/post_test", (req, res) => {
   console.log(req.body);
+  console.log("POST data");
   res.status(201).json(req.body);
 });
 
