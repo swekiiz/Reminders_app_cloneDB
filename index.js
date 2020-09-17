@@ -8,11 +8,16 @@ const bodyParser = require("body-parser");
 
 const editData = (reqdata) => {
   // console.log(data);
+  var have = false;
   for (let i = 0; i < data.length; i++) {
     if (data[i]["id"] == reqdata["id"]) {
       data[i] = {...data[i], ...reqdata};
+      have = true;
     }
     console.log(data[i]);
+  }
+  if(!have) {
+    data.push(reqdata);
   }
   // console.log(data);
   console.log('suscess');
