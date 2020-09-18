@@ -1,5 +1,6 @@
 const express = require("express");
-var data = require("./datatest.json");
+// var data = require("./datatest.json");
+var data = require('./db.json');
 const { check, validationResult } = require("express-validator");
 
 const port = 3456;
@@ -18,6 +19,7 @@ const editData = (reqdata) => {
   }
   if(!have) {
     data.push(reqdata);
+    console.log(reqdata);
   }
   // console.log(data);
   console.log('suscess');
